@@ -9,6 +9,7 @@
         <title>Smak! Settings</title>
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/styles.css" rel="stylesheet">
+        <script type="text/javascript" src="settings.js"></script>
 
     </head>
     <body>
@@ -24,8 +25,19 @@
             <label for="exampleTextarea">Websites for studying (just website that you usually visit to study):</label>
             <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
         </div>
+        &nbsp
+        <div class="form-group space">
+            <label for="exampleTextarea">Study time(minutes):</label>
+                <input class="form-control" type="number" value="60" id="example-number-input"/>
+        </div>
+        &nbsp
+        <div class="form-group space">
+            <label for="exampleTextarea">Break time(minutes):</label>
+                <input class="form-control" type="number" value="15" id="example-number-input"/>
+        </div>
+        &nbsp
         
-        <center><button type="button" class="btn btn-primary paddingBottom" id="startWebPage">Start</button></center>
+        <center><button type="button" class="btn btn-primary paddingBottom" id="startWebPage">Save</button></center>
         
     </body>
     
