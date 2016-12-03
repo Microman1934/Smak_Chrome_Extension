@@ -1,0 +1,9 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+.space {
+    padding-left: 20px;
+    padding-right: 20px;
+}
