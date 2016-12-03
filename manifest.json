@@ -1,0 +1,11 @@
+{
+    
+    "name": "Smak!!! Productivity App",
+    "version": "0.1",
+    "description": "Smak!!! Procrastination in the face!",
+    "Browser_action": {
+        "default_icon": "assets/icon.png"
+        
+    }
+    
+}
